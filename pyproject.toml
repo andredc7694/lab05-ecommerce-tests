@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+addopts = "--cov=ecommerce --cov-report=term-missing"
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
